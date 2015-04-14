@@ -6,4 +6,4 @@ These codes contain the very first attempt of using Logistic Regression with The
 
 To run this code, put the "train.csv" and "test.csv" in the same path.
 
-If you want to try another algorithm, I recommend to add another class file (something like LogisticRegression.ph) and call it from main_otto.py.
+If you want to try another algorithm, I recommend to add another class file (something like LogisticRegression.py) and call it from main_otto.py.
