@@ -5,7 +5,13 @@ from loader import *
 from LogisticRegression import *
 import cPickle as pickle
 
+
 def train_lr(learning_rate=9e-2, l2reg=0.0, batch_size=500, n_epochs=5000, outfile='outputs.csv'):
+	'''
+	Training Otto data using Logistic Regression
+ 	Create by Ghifar
+ 	Tuesday, 14/04/2015
+	'''
 	print '[train_lr] learning_rate : ',learning_rate
 	print '           l2reg : ',l2reg
 	print '           batch_size : ',batch_size
